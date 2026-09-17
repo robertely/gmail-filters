@@ -5,7 +5,32 @@
 **Gmail query:**
 
 ```text
-((subject:appointment {subject:reminder subject:upcoming subject:"is on" subject:"is today" subject:"see you" subject:"please confirm"}) OR subject:"upcoming visit" OR (subject:reminder subject:session)) -subject:changed -subject:rescheduled -subject:canceled -subject:cancelled -subject:confirmed -subject:"new appointment booked" -subject:"appointment details" -subject:"how was"
+(
+  (
+    subject:appointment
+    {
+      subject:reminder
+      subject:upcoming
+      subject:"is on"
+      subject:"is today"
+      subject:"see you"
+      subject:"please confirm"
+    }
+  )
+  OR subject:"upcoming visit"
+  OR (
+    subject:reminder
+    subject:session
+  )
+)
+-subject:changed
+-subject:rescheduled
+-subject:canceled
+-subject:cancelled
+-subject:confirmed
+-subject:"new appointment booked"
+-subject:"appointment details"
+-subject:"how was"
 ```
 
 **Actions:** Apply label `Appointments/Reminders`.
