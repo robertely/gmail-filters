@@ -5,7 +5,11 @@
 **Gmail query:**
 
 ```text
-{subject:statement subject:estatement} -subject:"privacy statement"
+{
+  subject:statement
+  subject:estatement
+}
+-subject:"privacy statement"
 ```
 
 **Actions:** Apply label `Noise/Account Statements`.
