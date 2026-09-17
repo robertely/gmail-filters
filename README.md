@@ -1,0 +1,11 @@
+# Gmail Filters
+
+A small collection of Gmail filters used to organize recurring mail.
+
+## Filters
+
+- `appointments/reminders.md` — upcoming appointment reminders
+- `noise/account-statements.md` — account and billing statements
+- `noise/feedback-requests.md` — optional surveys and feedback requests
+- `noise/payment-confirmations.md` — successful payment confirmations
+- `noise/privacy-policy.md` — privacy-policy, terms, agreement, and disclosure updates
