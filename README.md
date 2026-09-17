@@ -14,6 +14,9 @@ A small collection of Gmail filters used to organize recurring mail.
 - `orders/placed.md` — order-placement and purchase-confirmation messages
 - `orders/shipping.md` — order shipping and delivery-status updates
 - `payments/confirmations.md` — successful payment confirmations
+- `payments/due.md` — bills, invoices, and payments that are due
+- `payments/notifications.md` — bill-ready and bill-available notices
 - `payments/scheduled.md` — upcoming automatic and scheduled payment notices
+- `payments/subscriptions.md` — subscription and membership lifecycle notices
 - `security/sign-ins.md` — account sign-in and new-device security notifications
 - `security/verification-codes.md` — one-time verification and authentication codes
