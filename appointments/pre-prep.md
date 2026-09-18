@@ -24,6 +24,7 @@
 
   subject:"when you arrive, check in here"
   subject:"patient forms"
+  subject:"telehealth appointment details"
 
   (
     subject:forms
@@ -52,4 +53,4 @@
 
 **Actions:** Apply label `Appointments/Pre-Prep`.
 
-**Description:** Identifies appointment preparation messages such as online check-in, patient forms, questionnaires, pre-registration, and other tasks to complete before a visit.
+**Description:** Identifies appointment preparation messages such as online check-in, telehealth join/details messages, patient forms, questionnaires, pre-registration, and other tasks to complete before a visit.
