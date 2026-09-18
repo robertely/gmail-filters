@@ -53,6 +53,16 @@
       subject:cancelled
     }
   )
+
+  (
+    subject:receipt
+    subscription
+    {
+      renews
+      renewed
+      continues
+    }
+  )
 }
 -in:spam
 -in:trash
@@ -60,4 +70,4 @@
 
 **Actions:** Apply label `Payments/Subscriptions`.
 
-**Description:** Identifies subscription and membership lifecycle notices such as renewals, expirations, price changes, and cancellations.
+**Description:** Identifies subscription and membership lifecycle notices such as renewals, expirations, recurring renewal receipts, price changes, and cancellations.
